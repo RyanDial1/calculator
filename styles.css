@@ -1,0 +1,42 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(218, 28, 28);
+}
+
+#display{
+    height: 90px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(22, 17, 17);
+    border-radius: 6px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#current {
+    font-size: 35px;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+#buttons div{
+    background-color: rgb(119, 206, 233);
+    aspect-ratio: 1;
+}
+
+.button, .button-number, .button-operator{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
